@@ -1,4 +1,6 @@
-title: "Slide index for EPI 596"
+---
+title: Slide index for EPI 596
+---
 
 # Slide Index
 
