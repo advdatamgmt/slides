@@ -1,0 +1,118 @@
+---
+title: "Reproducible Research"
+subtitle: "MSCR 596: Advanced Data Management in R"
+author: "Beau B. Bruce, MD, PhD"
+output: 
+  ioslides_presentation:
+    transition: faster
+---
+
+````{r "knitr-setup", include=FALSE, cache=FALSE}
+# knitr-setup should be the first chunk in the document.
+knitLiteral::kast_on()
+````
+
+
+## What is "reproducible" research?
+
++ I put it in quotes because it would be better called *repeatable* or *replicable* research, but the term has generally been called
+*reproducible*
+
++ Why make the distinction?
+
+## The 4 R's
+
+<img src="http://image.slidesharecdn.com/ismb2013keynotecleangoble-130726152010-phpapp01/95/ismbeccb-2013-keynote-goble-results-may-vary-what-is-reproducible-why-do-open-science-and-who-gets-the-credit-17-638.jpg" alt="The 4 R's: repeat, replicate, reproduce, reuse">
+
+## Is repeatability and replicability worth having?
+
++ The authors distinctions are correct, but...
+
++ I disagree with the premise of the paper, i.e., "replicability is not worth having"
+
++ Instead, I suggest replicability, and especially repeatability of your own results **is** the foundation of reproducibility
+
++ Without being able to at least repeat exactly the results of your own analyses or replicate that of another group, why should you trust 
+the results in order so that you can begin to try to reproduce them?
+
+## Why is reproducible research needed?
+
++ Data and their analysis are increasingly complex
+
++ Analysis is part of the methods!  
+
++ Generally, methods should be reported at the level that another group can *replicate* the results
+
++ Many experiments can not be reproduced
+    + Most large clinical trials
+    + The Large Hadron Collider (Higgs Boson)
+    
++ But replication is at least a step in the right direction
+    
+## Because IOM says so
+
++ [Evolution of Translational Omics](http://iom.nationalacademies.org/Reports/2012/Evolution-of-Translational-Omics.aspx)
+    + Data & metadata used should be made publicly available
+    + The fully-specified computational procedures and exact computer code used for the development of the candidate omics-based test should be
+      made *sustainably* available
+    + "Ideally, the computer code that is released will encompass all the steps of computational analysis, *including all data preprocessing steps*....
+       All aspects of the analysis need to transparently reported."
+       
+## Sounds good, but how?
+
++ One technique is "literate programming"
+
++ Concept introduced by Donald Knuth (he's a big deal)
+
++ Write your reports/articles as a stream of code and text
+
++ Needs the human/documentation language + a machine/programming language
+
++ In R, best literate programming environment is R Markdown + R = knitr
+
++ These slides and all your assignments have been made with knitr (+ a little HTML)!
+
+## Markdown
+
++ Markdown is the human readable language
+
++ A way to represent rich text (formatting, etc.) as plain text
+
++ Official Markdown Site (http://daringfireball.net/projects/markdown/)
+
++ R Markdown (http://rmarkdown.rstudio.com/)
+
+## Knitr
+
++ Knitr provides the way to weave together R code with R Markdown
+
+```{r, eval = FALSE}
+Two plus two equals `r 2 + 2`
+```
+
+Two plus two equals `r 2 + 2`
+
++ Longer code blocks begin and end with three backticks plus {r}
+
+<pre class="prettyprint lang-r">
+<span class="str">```{r, &lt;options&gt;}</span>
+
+<span class="str">```</span>
+</pre>
+
++ [Knitr options](http://yihui.name/knitr/options/)
+
+## Outputs
+
++ HTML (web)
+
++ Word
+
++ PDF (with special tools)
+
+## Goal
+
++ Future homework &
++ Final project
+
+... should be completed with knitr in RStudio
