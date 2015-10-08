@@ -106,7 +106,7 @@ Two plus two equals `r 2 + 2`
 
 + HTML (web)
 
-+ Word
++ Microsoft Word
 
 + PDF (with special tools)
 
