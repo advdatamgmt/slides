@@ -1,7 +1,7 @@
 ---
 title: "Class Introduction"
 subtitle: "MSCR 596: Advanced Data Management in R"
-author: "Beau B. Bruce, MD, PhD"
+author: "Beau B. Bruce, MD, PhD\\\n\\\n(use right arrow key to advance slides)"
 output: 
   ioslides_presentation:
     transition: faster
@@ -44,7 +44,7 @@ output:
 
 - Always a "newbie"
     - Taking on new challenges
-    - Often feeling in over their head (cf. [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome))
+    - Often feeling "in over their head" (cf. [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome))
     - Unafraid to say "I don't know"
 - Willing try to find answers on their own
 - Know where to look for answers
@@ -156,7 +156,7 @@ RSiteSearch("<text>")
     - It is ok, however, to discuss general approaches to problems
       before you then work on your own.  
     - Important though to make sure you can really do both the creative and
-      technical components so don't over do it.
+      technical components so don't over do talking to others.
 
 - Me (but please try the others first)
 
@@ -167,7 +167,8 @@ RSiteSearch("<text>")
 - The output you got
 - The output you expected
 - Details about the version of R, packages, and operating system
-- What you did to try and fix it
+- What you did to try and fix it (spend at least 1 hour trying
+  to solve the problem before reaching out for help)
 
 # Course Structure
 
@@ -181,7 +182,9 @@ The remainder will come from a final project.
 ## Class participation (40%)
 - Unexcused absences 3% off final grade after first
 - Excused absences will be almost always be allowed if you contact the instructor BEFORE
-      class with explanation, AFTER only rarely, and only in the case of extraordinary
+      class with explanation, 
+- If you contact the instructor DURING/AFTER class your absense will
+  only rarely, be excused and only in the case of extraordinary
       circumstances
       
 ## Homework assignments (40%)
@@ -198,8 +201,8 @@ The remainder will come from a final project.
 - Requires one substantial figure
 - Requires one substantial table 
 - You can choose one of your own datasets or we can work to find one on the web
-- *Brief* proposal (dataset, description of figure & table) due on Oct 29 so that I
-  can approve by Nov 5, providing you adequate time to do and turn in by Dec 10.
+- *Brief* proposal (dataset, description of figure & table) due on Oct 28 so that I
+  can approve by Nov 10, providing you adequate time to do and turn in by Dec 8
 
 
 ## Closing Thoughts

@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Research"
 subtitle: "MSCR 596: Advanced Data Management in R"
-author: "Beau B. Bruce, MD, PhD"
+author: "Beau B. Bruce, MD, PhD\\\n\\\n(use right arrow key to advance slides)"
 output: 
   ioslides_presentation:
     transition: faster
@@ -15,7 +15,7 @@ knitLiteral::kast_on()
 
 ## What is "reproducible" research?
 
-+ I put it in quotes because it would be better called *repeatable* or *replicable* research, but the term has generally been called
++ I put it in quotes because it would be better called *repeatable* or *replicable* research, but the term that has been generally used
 *reproducible*
 
 + Why make the distinction?
