@@ -1,8 +1,10 @@
 ---
 title: "Class Introduction"
-subtitle: "MSCR 596: Advanced Data Management in R"
-author: "Beau B. Bruce, MD, PhD\\\n\\\n(use right arrow key to advance slides)"
-output: 
+author: |-
+  Beau B. Bruce, MD, PhD 
+  (use right arrow key to advance slides)
+subtitle: 'MSCR 596: Advanced Data Management in R'
+output:
   ioslides_presentation:
     transition: faster
 ---
@@ -183,16 +185,18 @@ The remainder will come from a final project.
 - Unexcused absences 3% off final grade after first
 - Excused absences will be almost always be allowed if you contact the instructor BEFORE
       class with explanation, 
-- If you contact the instructor DURING/AFTER class your absense will
-  only rarely, be excused and only in the case of extraordinary
-      circumstances
+- If you contact the instructor DURING/AFTER class, your absense will
+  only rarely be excused and only in the case of extraordinary
+  circumstances
       
 ## Homework assignments (40%)
-- Each module has some programming problems to work on at home
-- These must be submitted by e-mail before next week's class begins
-- I will provide personalized feedback as soon as I can but always before the following class
-- Each will be a small part of your overall grade (usually ~2-4 modules a week; 10-20
-  very short problems total or fewer longer problems), but will be critical 
+- Each module has a progressive set of didactic and evaluative
+  programming problems to work on at home
+- These should be submitted by the Google Form before next week's class begins
+  (instructions are within the program)
+- The module provides direct feedback on your performance
+- Keep track of questions you have for class 
+- Each will be a small part of your overall grade, but will be critical 
   for self-assessment
       
 ## Final project (20%)
@@ -201,8 +205,8 @@ The remainder will come from a final project.
 - Requires one substantial figure
 - Requires one substantial table 
 - You can choose one of your own datasets or we can work to find one on the web
-- *Brief* proposal (dataset, description of figure & table) due on Oct 28 so that I
-  can approve by Nov 10, providing you adequate time to do and turn in by Dec 8
+- *Brief* proposal (dataset, description of figure & table) due on Nov 1 so that I
+  can approve by Nov 15, providing you adequate time to do and turn in by Dec 13
 
 
 ## Closing Thoughts
